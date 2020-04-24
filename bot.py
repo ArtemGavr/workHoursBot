@@ -3,7 +3,7 @@ import time
 import telebot
 from database import Locations, Workers, History, db, TimeHandler
 
-bot = telebot.TeleBot('1186093630:AAG5au2zY3yv6mHsEXefI1oNdeJClZBv6VY')
+bot = telebot.TeleBot('your_telegrambottoken')
 
 
 def count_locations():
